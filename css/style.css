@@ -1,0 +1,98 @@
+/* 
+&display=swap
+&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap &subset=cyrillic-ext");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	/* color: #000; */
+	/* font-family:""; */
+	
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+
+}
+
+.our-impact {
+
+	&__content {}
+
+	&__header {}
+
+	&__title {}
+
+	&__icon {}
+
+	&__subtitle {font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 12px;
+		line-height: 24px;
+		display: flex;
+		align-items: center;
+		letter-spacing: 2.5px;
+		text-transform: uppercase;
+		color: #FFFFFF;}
+
+	&__body {font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 900;
+		font-size: 36px;
+		line-height: 42px;
+		color: #FFFFFF;}
+
+	&__items {}
+
+	&__item {}
+}
+
+.dog {}
+
+.column-block {
+
+	&__image {}
+
+	&__title {}
+
+	&__text {}
+}
